@@ -1,0 +1,18 @@
+{
+  "name": "odin-cs_recursion",
+  "version": "1.0.0",
+  "description": "Practice of \"Project: Recursion\" in The Odin Project",
+  "main": "fibonacci.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "3.6.2"
+  }
+}
