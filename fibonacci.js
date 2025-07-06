@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-// Iteration version of fibonacci function
+// Iteration version of function fibonacci
 function fibsIter(index) {
     let first = 0, second = 1, sum = 0;
     const fibResult = [];
@@ -26,7 +26,7 @@ function fibsIter(index) {
     return fibResult;
 }
 
-// Recursion version of fibonacci function
+// Recursion version of function fibonacci
 function fibsRec(index) {
     if(Number.isInteger(index)) {
         if(index <= 0) {
@@ -51,17 +51,17 @@ function fibsRec(index) {
     }
 }
 
-// Test iteration version of fibonacci function
+// Test iteration version of function fibonacci
 console.log(fibsIter(-1));        // []
 console.log(fibsIter(1.1));       // []
-console.log(fibsIter(8));         // [0, 1, 1, 2, 3, 5, 8, 13]
-console.log(fibsIter(2));         // [0, 1]
-console.log(fibsIter(10));        // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+console.log(fibsIter(8));         // [ 0, 1, 1, 2, 3, 5, 8, 13 ]
+console.log(fibsIter(2));         // [ 0, 1 ]
+console.log(fibsIter(10));        // [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ]
 
 
-// Test recursion version of fibonacci function
+// Test recursion version of function fibonacci
 console.log(fibsIter(-1));        // []
 console.log(fibsIter(1.1));       // []
-console.log(fibsIter(8));         // [0, 1, 1, 2, 3, 5, 8, 13]
-console.log(fibsIter(2));         // [0, 1]
-console.log(fibsIter(10));        // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+console.log(fibsIter(8));         // [ 0, 1, 1, 2, 3, 5, 8, 13 ]
+console.log(fibsIter(2));         // [ 0, 1 ]
+console.log(fibsIter(10));        // [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ]
