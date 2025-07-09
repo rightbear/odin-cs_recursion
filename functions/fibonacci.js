@@ -58,8 +58,8 @@ console.log(fibsIter(2)); // [ 0, 1 ]
 console.log(fibsIter(10)); // [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ]
 
 // Test recursion version of function fibonacci
-console.log(fibsIter(-1)); // []
-console.log(fibsIter(1.1)); // []
-console.log(fibsIter(8)); // [ 0, 1, 1, 2, 3, 5, 8, 13 ]
-console.log(fibsIter(2)); // [ 0, 1 ]
-console.log(fibsIter(10)); // [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ]
+console.log(fibsRec(-1)); // []
+console.log(fibsRec(1.1)); // []
+console.log(fibsRec(8)); // [ 0, 1, 1, 2, 3, 5, 8, 13 ]
+console.log(fibsRec(2)); // [ 0, 1 ]
+console.log(fibsRec(10)); // [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ]
